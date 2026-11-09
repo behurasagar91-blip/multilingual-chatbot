@@ -11,7 +11,6 @@ OLLAMA_URL = "http://host.docker.internal:11434/api/chat"
 MODEL = "qwen2.5:3b"
 DB_PATH = "/app/data/chat_history.db"
 
-# Database setup
 os.makedirs("/app/data", exist_ok=True)
 
 def get_db():
