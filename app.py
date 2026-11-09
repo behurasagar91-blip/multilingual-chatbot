@@ -9,9 +9,7 @@ from io import BytesIO
 
 OLLAMA_URL = "http://host.docker.internal:11434/api/chat"
 MODEL = "qwen2.5:3b"
-DB_PATH = "/app/data/chat_history.db"
-
-os.makedirs("/app/data", exist_ok=True)
+DB_PATH = "/tmp/chat_history.db"
 
 def get_db():
     return sqlite3.connect(DB_PATH)
