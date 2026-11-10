@@ -1,42 +1,11 @@
+# 🌐 Multilingual AI Chatbot
 
-# 🌍 Multilingual AI Chatbot
+## 🚀 Live Demo
 
-An AI-powered chatbot that allows users to communicate in multiple languages.
+Try the chatbot here:
 
-## Features
-- Multilingual conversations
-- Language selection
-- AI-powered responses using Qwen 2.5
-- Voice responses
-- Chat history
+[**Open Multilingual AI Chatbot**](https://multilingual-chatbot-xxvspydmc5usyrcjdlwusz.streamlit.app/)
 
-## Technologies Used
-- Python
-- Streamlit
-- Ollama
-- Qwen 2.5
-- Docker
-- Cloudflare Tunnel
+## Project Description
 
-## Installation
-
-1. Clone this repository.
-2. Install dependencies:
-
-pip install -r requirements.txt
-
-3. Install Ollama and download the model:
-
-ollama pull qwen2.5:3b
-
-4. Start Ollama.
-5. Run the application:
-
-streamlit run app.py
-
-## Live Demo
-
-https://outputs-sent-issn-performances.trycloudflare.com 
-
-## Developer
-BCA Student Project
+A multilingual AI chatbot powered by Groq AI that supports text-based conversations and text-to-speech in multiple languages.
